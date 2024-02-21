@@ -120,3 +120,35 @@ main {
 .footer .copyright {
   text-align: center;
 }
+/* Error */
+.error, .error-enlace {
+   font-size: 2.4rem;
+   text-align: center;
+   margin-top: 5rem;
+
+}
+.error-enlace {
+    display: block;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 1.8rem;
+}
+ .enlace {
+  margin-top: 2rem;
+  display: block;
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  border-radius: .5rem;
+  
+}
+ .enlace:hover {
+  background-color: var(--primary);
+}
