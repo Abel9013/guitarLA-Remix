@@ -1,6 +1,5 @@
 function Curso({curso}) {
     const {contenido, imagen, titulo} = curso
-    console.log(imagen);
   return (
     <section className="curso">
         <style jsx="true">{`

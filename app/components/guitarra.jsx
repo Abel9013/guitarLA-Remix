@@ -3,7 +3,6 @@ function Guitarra({guitarra}) {
     const { descripcion, imagen,nombre, precio, url} = guitarra
     const descripcionIndividual = descripcion[0].children[0].text
     const imagenFinal = imagen.data.attributes.formats.medium.url
-    
   return (
     <div className="guitarra">
         <img src={imagenFinal} alt={`imagen guitarra ${nombre}`} />

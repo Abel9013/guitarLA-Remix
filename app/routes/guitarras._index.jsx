@@ -21,7 +21,6 @@ export async function loader () {
 }
 function Tienda() {
   const guitarras = useLoaderData()
-  
   return (
       <ListadoGuitarras guitarras={guitarras} />
   )
